@@ -1,0 +1,93 @@
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 0%)
+}
+
+header.page-header {
+    background: no-repeat left/cover url(img/header-logo.png);
+    height: 140px;
+    min-width: 120px;
+    
+    align-items: center;
+    color: #fff;
+    text-shadow: #000 0 0 .2em;
+}
+
+header.page-header > h1 {
+    font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive, fantasy;
+    
+}
+header.page-header h1,h2 {
+    
+    margin: 2%;
+}
+header.page-header > div {
+    display: flex;
+    margin: 10px;
+    
+}
+.avatar {
+    
+    height: 140px;
+    width: 100px;
+    
+
+}
+.avatar img {
+    height: 120px;
+    width: 120px;
+    margin: 10 5;
+    padding: 0;
+    border-radius: 50%;
+
+}
+.portfolio {
+    width: 600px;
+    margin-left: 20px;
+
+}
+
+main {
+
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+div.menu {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding: 10px;
+    background-color: rgb(152 200 75 / 1);
+    border: none;
+    margin: 0;
+    border-radius: 0px 0px 10% 10%;
+  }
+
+.punkt {
+    display: flex;
+    margin: 5px 10px;
+    background-color: #dcdfe74d;
+    border: 1px solid rgb(157, 199, 201);
+    border-radius: 30%;
+}
+
+
+.content {
+    background-color: #dcdfe74d;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(91 177 227);
+    color: white;
+    
+  }
+
+  
